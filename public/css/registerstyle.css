@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:black;
+    
+}
+
+.container {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+    
+    
+    
+    
+    
+}
+
+.account1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.login-form {
+
+   max-width: 300px;
+   margin-top: 40px;
+  
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    background: #f0f0f0;
+    color: #000;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.remember-me input {
+    margin-right: 5px;
+    
+}
+.checkbox-font{
+    font-size: 12px;
+    color: #fff;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00aaff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.cs-form_field{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #f0f0f0;
+    color: #7d7b7b;
+
+}
+
+.login-form button:hover {
+    background: #0077cc;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
