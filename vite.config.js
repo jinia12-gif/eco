@@ -11,4 +11,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: '0.0.0.0', // Ensures Vite listens on all interfaces
+        port: 4173, // Use the port you want Render to bind to (4173 is the default Vite port)
+    },
 });
+
